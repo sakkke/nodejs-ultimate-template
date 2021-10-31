@@ -7,7 +7,10 @@
   "scripts": {
     "build": "parcel build",
     "lint": "eslint 'src/**/*.ts'",
-    "test": "jest"
+    "lint:watch": "esw --clear --color --ext .js,.ts -w 'src/**/*.{js,ts}'",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch": "parcel watch"
   },
   "repository": {
     "type": "git",
