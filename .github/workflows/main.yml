@@ -3,6 +3,10 @@ on:
     branches:
       - main
 
+env:
+  PUBLISH_GPR_SCOPE: "@sakkke"
+  PUBLISH_NPM_SCOPE: "@0wv"
+
 jobs:
   publish-gpr:
     needs: test
@@ -17,10 +21,10 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://npm.pkg.github.com/
-          scope: ${{ secrets.PUBLISH_GPR_SCOPE }}
+          scope: ${{ env.PUBLISH_GPR_SCOPE }}
           cache: npm
       - run: npm ci
-      - run: npm config set scope ${{ secrets.PUBLISH_GPR_SCOPE }}
+      - run: npm config set scope ${{ env.PUBLISH_GPR_SCOPE }}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,10 +39,10 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://registry.npmjs.org/
-          scope: ${{ secrets.PUBLISH_NPM_SCOPE }}
+          scope: ${{ env.PUBLISH_NPM_SCOPE }}
           cache: npm
       - run: npm ci
-      - run: npm config set scope ${{ secrets.PUBLISH_NPM_SCOPE }}
+      - run: npm config set scope ${{ env.PUBLISH_NPM_SCOPE }}
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
