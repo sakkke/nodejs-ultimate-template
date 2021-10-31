@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-ultimate-template",
+  "version": "0.1.0",
+  "description": "A starter template for Node.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakkke/nodejs-ultimate-template.git"
+  },
+  "author": "sakkke <w32w64@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sakkke/nodejs-ultimate-template/issues"
+  },
+  "homepage": "https://github.com/sakkke/nodejs-ultimate-template#readme"
+}
