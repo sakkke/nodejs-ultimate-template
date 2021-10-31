@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "parcel build",
+    "lint": "eslint 'src/**/*.ts'",
     "test": "jest"
   },
   "repository": {
@@ -27,5 +28,11 @@
     "eslint-plugin-promise": "^5.1.1",
     "parcel": "^2.0.0",
     "typescript": "^4.4.4"
+  },
+  "eslintConfig": {
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
   }
 }
