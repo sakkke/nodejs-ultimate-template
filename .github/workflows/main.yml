@@ -23,6 +23,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           cache: npm
       - run: npm ci
+      - run: npm run build
       - run: "sed -Ei 's,\"name\": \".+/(.+)\",\"name\": \"${{ env.PUBLISH_GPR_SCOPE }}/\\1\",' package.json"
       - run: npm publish
         env:
@@ -40,6 +41,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
           cache: npm
       - run: npm ci
+      - run: npm run build
       - run: "sed -Ei 's,\"name\": \".+/(.+)\",\"name\": \"${{ env.PUBLISH_NPM_SCOPE }}/\\1\",' package.json"
       - run: npm publish --access public
         env:
