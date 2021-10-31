@@ -4,6 +4,9 @@
   "description": "A starter template for Node.js",
   "source": "src/index.ts",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "parcel build",
     "dev": "tmux new \\; send 'npm run watch' C-m \\; splitw \\; send 'npm run lint:watch' C-m \\; splitw -h \\; send 'npm run test:watch' C-m",
