@@ -20,6 +20,7 @@ jobs:
           scope: ${{ secrets.PUBLISH_GPR_SCOPE }}
           cache: npm
       - run: npm ci
+      - run: npm config set scope ${{ secrets.PUBLISH_GPR_SCOPE }}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,6 +38,7 @@ jobs:
           scope: ${{ secrets.PUBLISH_NPM_SCOPE }}
           cache: npm
       - run: npm ci
+      - run: npm config set scope ${{ secrets.PUBLISH_NPM_SCOPE }}
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
