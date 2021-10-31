@@ -21,10 +21,9 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://npm.pkg.github.com/
-          scope: ${{ env.PUBLISH_GPR_SCOPE }}
           cache: npm
       - run: npm ci
-      - run: npm config set scope ${{ env.PUBLISH_GPR_SCOPE }}
+      - run: "sed -i s,\"name\": \".+/(.+)\",\"name\": \"${{ env.PUBLISH_GPR_SCOPE }}/\\1\", package.json"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,10 +38,9 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://registry.npmjs.org/
-          scope: ${{ env.PUBLISH_NPM_SCOPE }}
           cache: npm
       - run: npm ci
-      - run: npm config set scope ${{ env.PUBLISH_NPM_SCOPE }}
+      - run: "sed -i s,\"name\": \".+/(.+)\",\"name\": \"${{ env.PUBLISH_NPM_SCOPE }}/\\1\", package.json"
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
