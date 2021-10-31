@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://npm.pkg.github.com/
+          scope: ${{ secrets.PUBLISH_GPR_SCOPE }}
           cache: npm
       - run: npm ci
       - run: npm publish
@@ -33,6 +34,7 @@ jobs:
         with:
           node-version: '16'
           registry-url: https://registry.npmjs.org/
+          scope: ${{ secrets.PUBLISH_NPM_SCOPE }}
           cache: npm
       - run: npm ci
       - run: npm publish --access public
