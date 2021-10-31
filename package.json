@@ -13,7 +13,7 @@
     "lint": "eslint 'src/**/*.ts'",
     "lint:watch": "esw --clear --color --ext .js,.ts -w 'src/**/*.{js,ts}'",
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "watch": "parcel watch"
   },
   "repository": {
