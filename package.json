@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sakkke/nodejs-ultimate-template/issues"
   },
-  "homepage": "https://github.com/sakkke/nodejs-ultimate-template#readme"
+  "homepage": "https://github.com/sakkke/nodejs-ultimate-template#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
 }
