@@ -72,7 +72,54 @@ npm run lint:watch
 
 - [ ] Check or update `./LICENSE`
 - [ ] Update `name`, `description`, `author` in `./package.json`
+- [ ] Change `env.PUBLISH_*_SCOPE` fields in `./.github/workflows/main.yml` (see [#Scope](#Scope))
 - [ ] Update `./README.md`
+
+## 🚀 Deploy with GitHub Actions
+
+### Overview
+
+This template supports publishing to GitHub Package Registry and npm Registry with GitHub Actions.
+To publish, You push the commit that starts with `:bookmark:`.
+Also, you can use the commit that starts with `:bug:`, `:sparkles:` or `:boom:`.
+They are incrementing `version` field in `./package.json` and publishing at the same time.
+
+Start with | What kind of increment
+--- | ---
+`:bug:` | It increments **patch** version (like `npm version patch`)
+`:sparkles:` | It increments **minor** version (like `npm version minor`)
+`:boom:` | It increments **major** version (like `npm version major`)
+
+### Important
+
+You must need `secrets.PAT`.
+This is GitHub Personal Access Token.
+
+### Scope
+
+Registry | Default scope
+--- | ---
+GitHub Package Registry | `@sakkke`
+npm Registry | `@0wv`
+
+To change, you must edit `env.PUBLISH_*_SCOPE` fields in `./.github/workflows/main.yml`.
+
+### Example
+
+#### Publish package as v0.42.0
+
+```console
+$ git commit --allow-empty -m ':bookmark: v0.42.0'
+$ git tag v0.42.0
+$ git push --follow-tags
+```
+
+#### Publish package with incrementing minor version
+
+```console
+$ git commit --allow-empty -m ':sparkles: release'
+$ git push
+```
 
 ## 📄 License
 

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ## Added
 - Add npm badge to `./README.md`
+- Add deploy section in `./README.md`
+- Update checklist in `./README.md`
 
 ## [0.2.0]
 ## Changed
