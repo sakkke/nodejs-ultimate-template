@@ -123,6 +123,10 @@ $ git commit --allow-empty -m ':sparkles: release'
 $ git push
 ```
 
+## 🍁 Related
+
+- [Svelte Ultimate Template](https://github.com/sakkke/svelte-ultimate-template) - A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
+
 ## 📄 License
 
 Unlicense
