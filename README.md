@@ -66,12 +66,6 @@ npm run test:watch
 npm run lint:watch
 ```
 
-#### Run Stylelint in watch mode
-
-```sh
-npm run lint:style:watch
-```
-
 ## 🔰 Checklist
 
 - [ ] Check or update `./LICENSE`
