@@ -1,5 +1,6 @@
 [![.github/workflows/main.yml](https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml/badge.svg)](https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![npm](https://img.shields.io/npm/v/@0wv/nodejs-ultimate-template)](https://www.npmjs.com/package/@0wv/nodejs-ultimate-template)
 
 # Node.js Ultimate Template
 
