@@ -12,6 +12,7 @@
     "build": "parcel build",
     "dev": "sh scripts/dev.sh",
     "docs": "typedoc --out ./_docs src/index.ts",
+    "docs:serve": "sh scripts/docs-serve.sh",
     "docs:watch": "typedoc --out ./_docs --watch src/index.ts",
     "lint": "eslint 'src/**/*.ts'",
     "lint:watch": "esw --clear --color --ext .js,.ts -w 'src/**/*.{js,ts}'",
