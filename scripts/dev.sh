@@ -1,5 +1,6 @@
 tmux \
   new \; \
+  set mouse on \; \
   send 'npm run watch' C-m \; \
   splitw \; \
   send 'npm run lint:watch' C-m \; \
