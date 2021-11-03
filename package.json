@@ -11,6 +11,7 @@
   "scripts": {
     "build": "parcel build",
     "dev": "tmux new \\; send 'npm run watch' C-m \\; splitw \\; send 'npm run lint:watch' C-m \\; splitw -h \\; send 'npm run test:watch' C-m",
+    "docs": "typedoc --out ./_docs src/index.ts",
     "lint": "eslint 'src/**/*.ts'",
     "lint:watch": "esw --clear --color --ext .js,.ts -w 'src/**/*.{js,ts}'",
     "test": "jest",

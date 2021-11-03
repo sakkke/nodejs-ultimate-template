@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update content in `./README.md`
 - Add first publish section in `./README.md`
 - Support generating typings
+- Add `script.docs` in `./package.json`
 
 ## [0.3.0]
 ## Added
