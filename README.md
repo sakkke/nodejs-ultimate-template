@@ -55,7 +55,7 @@ src
 
 **Requires:**
 
-- `tmux` (used by `npm run dev`)
+- `tmux` (used by `npm run dev` and `npm run docs:serve`)
 
 ```sh
 npx degit sakkke/nodejs-ultimate-template [project-name]
