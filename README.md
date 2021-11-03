@@ -19,16 +19,19 @@ A starter template for Node.js with **TypeScript**
 - [x] Jest
 - [x] ESLint
   - [x] [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
+- [x] Automated testing using GitHub Actions
 
 ### 🔨 Development
 
 - [x] Parcel
-- [x] Automated testing using GitHub Actions
-- [x] Gitpod support
 
 ### 📝 Documentation
 
 - [ ] TypeDoc
+
+### 🌌 Others
+
+- [x] Gitpod support
 
 ## 🎨 App structure
 
