@@ -1,5 +1,8 @@
+[![license](https://img.shields.io/github/license/sakkke/nodejs-ultimate-template)](./LICENSE)
 [![.github/workflows/main.yml](https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml/badge.svg)](https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml)
+[![github-pages](https://img.shields.io/github/deployments/sakkke/nodejs-ultimate-template/github-pages?label=github-pages)](https://sakkke.github.io/nodejs-ultimate-template/)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![GitHub tag](https://img.shields.io/github/v/tag/sakkke/nodejs-ultimate-template)](https://github.com/sakkke/nodejs-ultimate-template/tags)
 [![npm](https://img.shields.io/npm/v/@0wv/nodejs-ultimate-template)](https://www.npmjs.com/package/@0wv/nodejs-ultimate-template)
 
 # Node.js Ultimate Template
@@ -11,6 +14,8 @@ There's also automated testing, linting, and documentation generation using GitH
 *Let's get started the fastest!* 🏎️
 
 [Use this template on GitHub](https://github.com/sakkke/nodejs-ultimate-template/generate)
+
+[View TypeDoc documentation](https://sakkke.github.io/nodejs-ultimate-template/)
 
 [View code coverage report](https://sakkke.github.io/nodejs-ultimate-template/_coverage/lcov-report/)
 
