@@ -27,7 +27,7 @@ A starter template for Node.js with **TypeScript**
 
 ### 📝 Documentation
 
-- [ ] TypeDoc
+- [x] TypeDoc
 
 ### 🌌 Others
 
