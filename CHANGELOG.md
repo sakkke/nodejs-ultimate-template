@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add first publish section in `./README.md`
 - Support generating typings
 - Add `script.docs` in `./package.json`
+- Add `gh-pages` job in workflow
 
 ## [0.3.0]
 ## Added

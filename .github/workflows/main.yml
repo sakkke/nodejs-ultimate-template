@@ -8,6 +8,22 @@ env:
   PUBLISH_NPM_SCOPE: "@0wv"
 
 jobs:
+  gh-pages:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: npm
+      - run: npm ci
+      - run: npm run docs
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_docs
+
   publish-gpr:
     needs: test
     runs-on: ubuntu-latest
