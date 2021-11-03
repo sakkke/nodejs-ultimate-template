@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ## Added
-- Add asset
+- Add assets
 - Add related section in `./README.md`
 - Update content in `./README.md`
 - Add first publish section in `./README.md`
