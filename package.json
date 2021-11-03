@@ -4,6 +4,7 @@
   "description": "A starter template for Node.js",
   "source": "src/index.ts",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -27,6 +28,8 @@
   },
   "homepage": "https://github.com/sakkke/nodejs-ultimate-template#readme",
   "devDependencies": {
+    "@parcel/packager-ts": "^2.0.0",
+    "@parcel/transformer-typescript-types": "^2.0.0",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "eslint": "^7.32.0",
