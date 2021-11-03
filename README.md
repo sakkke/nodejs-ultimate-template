@@ -19,7 +19,6 @@ A starter template for Node.js with **TypeScript**
 - [x] Jest
 - [x] ESLint
   - [x] [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
-- [x] Automated testing using GitHub Actions
 
 ### 🔨 Development
 
@@ -31,6 +30,7 @@ A starter template for Node.js with **TypeScript**
 
 ### 🌌 Others
 
+- [x] Automated testing using GitHub Actions
 - [x] Gitpod support
 
 ## 🎨 App structure
@@ -106,6 +106,7 @@ npx serve _docs
 - [ ] Check or update `./LICENSE`
 - [ ] Update `name`, `description`, `author` in `./package.json`
 - [ ] Change `env.PUBLISH_*_SCOPE` fields in `./.github/workflows/main.yml` (see [#Scope](#Scope))
+- [ ] Set GitHub Pages source to `gh-pages` branch
 - [ ] Update `./README.md`
 
 ## 🚀 Deploy with GitHub Actions
