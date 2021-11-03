@@ -114,7 +114,7 @@ npx serve _docs
 ### Overview
 
 This template supports publishing to GitHub Package Registry and npm Registry with GitHub Actions.
-To publish, You push the commit that starts with `:bookmark:`.
+To publish, you push the commit that starts with `:bookmark:`.
 Also, you can use the commit that starts with `:bug:`, `:sparkles:` or `:boom:`.
 They are incrementing `version` field in `./package.json` and publishing at the same time.
 
