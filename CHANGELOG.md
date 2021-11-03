@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update `./tsconfig.json`
 - Split `scripts.dev` into `./scripts/dev.sh`
 - Add mouse support for scripts that use tmux
+- Set window name for scripts that use tmux
 
 ## [0.3.0]
 ## Added
