@@ -12,20 +12,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Added
 - Add assets
 - Add related section in `./README.md`
-- Update content in `./README.md`
 - Add first publish section in `./README.md`
 - Support generating typings
 - Add `scripts["{docs,docs:all,docs:serve,docs:watch,test:coverage}"]` in `./package.json`
 - Add `gh-pages` job in workflow
-- Update `./tsconfig.json`
-- Split `scripts.dev` into `./scripts/dev.sh`
 - Add mouse support for scripts that use tmux
 - Set window name for scripts that use tmux
 - Support scripts using tmux in tmux
 - Make `./scripts/dev.sh` include content of `./scripts/docs-serve.sh`
 - Add `npm-run-all` to `devDependencies`
-- Update Jest config
 - Add code coverage report support
+
+## Changed
+- Update content in `./README.md`
+- Update `./tsconfig.json`
+- Split `scripts.dev` into `./scripts/dev.sh`
+- Update Jest config
 
 ## [0.3.0]
 ## Added
