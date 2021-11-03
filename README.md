@@ -26,6 +26,10 @@ A starter template for Node.js with **TypeScript**
 - [x] Automated testing using GitHub Actions
 - [x] Gitpod support
 
+### 📝 Documentation
+
+- [ ] TypeDoc
+
 ## 🎨 App structure
 
 ```console
