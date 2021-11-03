@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "parcel build",
-    "dev": "tmux new \\; send 'npm run watch' C-m \\; splitw \\; send 'npm run lint:watch' C-m \\; splitw -h \\; send 'npm run test:watch' C-m",
+    "dev": "sh scripts/dev.sh",
     "docs": "typedoc --out ./_docs src/index.ts",
     "docs:watch": "typedoc --out ./_docs --watch src/index.ts",
     "lint": "eslint 'src/**/*.ts'",

@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `scripts["{docs,docs:watch}"]` in `./package.json`
 - Add `gh-pages` job in workflow
 - Update `./tsconfig.json`
+- Split `scripts.dev` into `./scripts/dev.sh`
 
 ## [0.3.0]
 ## Added
