@@ -18,7 +18,7 @@ jobs:
           node-version: '16'
           cache: npm
       - run: npm ci
-      - run: npm run docs
+      - run: npm run docs:all
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
