@@ -6,7 +6,7 @@
 
 ![nodejs-parcel-typescript](./assets/nodejs-parcel-typescript.svg)
 
-A starter template for Node.js
+A starter template for Node.js with **TypeScript**
 
 [Use this template on GitHub](https://github.com/sakkke/nodejs-ultimate-template/generate)
 
