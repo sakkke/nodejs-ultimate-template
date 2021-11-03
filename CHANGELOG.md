@@ -11,8 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update content in `./README.md`
 - Add first publish section in `./README.md`
 - Support generating typings
-- Add `scripts.docs` in `./package.json`
+- Add `scripts["{docs,docs:watch}"]` in `./package.json`
 - Add `gh-pages` job in workflow
+- Update `./tsconfig.json`
 
 ## [0.3.0]
 ## Added

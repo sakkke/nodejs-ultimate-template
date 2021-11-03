@@ -5,5 +5,8 @@
     "types": [
       "jest"
     ]
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
