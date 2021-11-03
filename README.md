@@ -6,7 +6,9 @@
 
 ![nodejs-parcel-typescript](./assets/nodejs-parcel-typescript.svg)
 
-A starter template for Node.js with **TypeScript**
+A *ultimate starter template* for Node.js with **TypeScript** + **Jest** + **ESLint** + **Parcel** + **TypeDoc** (+ **Gitpod**)! 😄
+There's also automated testing, linting, and documentation generation using GitHub Actions! ⚡  
+*Let's get started the fastest!* 🏎️
 
 [Use this template on GitHub](https://github.com/sakkke/nodejs-ultimate-template/generate)
 
