@@ -1,0 +1,205 @@
+<!DOCTYPE html><html class="default no-js"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@sakkke/nodejs-ultimate-template</title><meta name="description" content="Documentation for @sakkke/nodejs-ultimate-template"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.body.classList.add(localStorage.getItem("tsd-theme") || "os")</script><header><div class="tsd-page-toolbar"><div class="container"><div class="table-wrap"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption">Search</label><input type="text" id="tsd-search-field"/></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">@sakkke/nodejs-ultimate-template</a></div><div class="table-cell" id="tsd-widgets"><div id="tsd-filter"><a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a><div class="tsd-filter-group"><div class="tsd-select" id="tsd-filter-visibility"><span class="tsd-select-label">All</span><ul class="tsd-select-list"><li data-value="public">Public</li><li data-value="protected">Public/Protected</li><li data-value="private" class="selected">All</li></ul></div> <input type="checkbox" id="tsd-filter-inherited" checked/><label class="tsd-widget" for="tsd-filter-inherited">Inherited</label><input type="checkbox" id="tsd-filter-externals" checked/><label class="tsd-widget" for="tsd-filter-externals">Externals</label></div></div><a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a></div></div></div></div><div class="tsd-page-title"><div class="container"><h1>@sakkke/nodejs-ultimate-template</h1></div></div></header><div class="container container-main"><div class="row"><div class="col-8 col-content"><div class="tsd-panel tsd-typography"><p><a href="https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml"><img src="https://github.com/sakkke/nodejs-ultimate-template/actions/workflows/main.yml/badge.svg" alt=".github/workflows/main.yml"></a>
+<a href="https://gitpod.io/from-referrer/"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod" alt="Gitpod ready-to-code"></a>
+<a href="https://www.npmjs.com/package/@0wv/nodejs-ultimate-template"><img src="https://img.shields.io/npm/v/@0wv/nodejs-ultimate-template" alt="npm"></a></p>
+
+<a href="#nodejs-ultimate-template" id="nodejs-ultimate-template" style="color: inherit; text-decoration: none;">
+  <h1>Node.js Ultimate Template</h1>
+</a>
+<p><img src="./assets/nodejs-parcel-typescript.svg" alt="nodejs-parcel-typescript"></p>
+<p>A starter template for Node.js with <strong>TypeScript</strong></p>
+<p><a href="https://github.com/sakkke/nodejs-ultimate-template/generate">Use this template on GitHub</a></p>
+
+<a href="#✨-features" id="✨-features" style="color: inherit; text-decoration: none;">
+  <h2>✨ Features</h2>
+</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> TypeScript</li>
+</ul>
+
+<a href="#♻️-lint-and-test" id="♻️-lint-and-test" style="color: inherit; text-decoration: none;">
+  <h3>♻️ Lint and Test</h3>
+</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Jest</li>
+<li><input checked="" disabled="" type="checkbox"> ESLint<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/standard/eslint-config-standard-with-typescript">eslint-config-standard-with-typescript</a></li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Automated testing using GitHub Actions</li>
+</ul>
+
+<a href="#🔨-development" id="🔨-development" style="color: inherit; text-decoration: none;">
+  <h3>🔨 Development</h3>
+</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Parcel</li>
+</ul>
+
+<a href="#📝-documentation" id="📝-documentation" style="color: inherit; text-decoration: none;">
+  <h3>📝 Documentation</h3>
+</a>
+<ul>
+<li><input disabled="" type="checkbox"> TypeDoc</li>
+</ul>
+
+<a href="#🌌-others" id="🌌-others" style="color: inherit; text-decoration: none;">
+  <h3>🌌 Others</h3>
+</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Gitpod support</li>
+</ul>
+
+<a href="#🎨-app-structure" id="🎨-app-structure" style="color: inherit; text-decoration: none;">
+  <h2>🎨 App structure</h2>
+</a>
+<pre><code class="language-console">$ tree src
+src
+├── index.ts
+├── main.test.ts
+└── main.ts
+
+0 directories, 3 files
+</code></pre>
+
+<a href="#🎉-get-started-automatic-if-using-gitpod" id="🎉-get-started-automatic-if-using-gitpod" style="color: inherit; text-decoration: none;">
+  <h2>🎉 Get started (automatic if using Gitpod)</h2>
+</a>
+<p><strong>Requires:</strong></p>
+<ul>
+<li><code>tmux</code> (used by <code>npm run dev</code>)</li>
+</ul>
+<pre><code class="language-sh"><span class="hl-0">npx degit sakkke/nodejs-ultimate-template [project-name]</span><br/><span class="hl-1">cd</span><span class="hl-0"> [project-name]</span><br/><span class="hl-0">npm i</span><br/><span class="hl-0">npm run dev</span>
+</code></pre>
+
+<a href="#stop-npm-run-dev" id="stop-npm-run-dev" style="color: inherit; text-decoration: none;">
+  <h3>Stop <code>npm run dev</code></h3>
+</a>
+<ol>
+<li>Press <code>&lt;C-b&gt;:killw&lt;CR&gt;</code></li>
+<li>Done!</li>
+</ol>
+
+<a href="#manually-lint-and-test-instead-of-npm-run-dev" id="manually-lint-and-test-instead-of-npm-run-dev" style="color: inherit; text-decoration: none;">
+  <h3>Manually lint and test instead of <code>npm run dev</code></h3>
+</a>
+
+<a href="#run-jest-in-watch-mode" id="run-jest-in-watch-mode" style="color: inherit; text-decoration: none;">
+  <h4>Run Jest in watch mode</h4>
+</a>
+<pre><code class="language-sh"><span class="hl-0">npm run test:watch</span>
+</code></pre>
+
+<a href="#run-eslint-in-watch-mode" id="run-eslint-in-watch-mode" style="color: inherit; text-decoration: none;">
+  <h4>Run ESLint in watch mode</h4>
+</a>
+<pre><code class="language-sh"><span class="hl-0">npm run lint:watch</span>
+</code></pre>
+
+<a href="#🔰-checklist" id="🔰-checklist" style="color: inherit; text-decoration: none;">
+  <h2>🔰 Checklist</h2>
+</a>
+<ul>
+<li><input disabled="" type="checkbox"> Check or update <code>./LICENSE</code></li>
+<li><input disabled="" type="checkbox"> Update <code>name</code>, <code>description</code>, <code>author</code> in <code>./package.json</code></li>
+<li><input disabled="" type="checkbox"> Change <code>env.PUBLISH_*_SCOPE</code> fields in <code>./.github/workflows/main.yml</code> (see <a href="#Scope">#Scope</a>)</li>
+<li><input disabled="" type="checkbox"> Update <code>./README.md</code></li>
+</ul>
+
+<a href="#🚀-deploy-with-github-actions" id="🚀-deploy-with-github-actions" style="color: inherit; text-decoration: none;">
+  <h2>🚀 Deploy with GitHub Actions</h2>
+</a>
+
+<a href="#overview" id="overview" style="color: inherit; text-decoration: none;">
+  <h3>Overview</h3>
+</a>
+<p>This template supports publishing to GitHub Package Registry and npm Registry with GitHub Actions.
+To publish, You push the commit that starts with <code>:bookmark:</code>.
+Also, you can use the commit that starts with <code>:bug:</code>, <code>:sparkles:</code> or <code>:boom:</code>.
+They are incrementing <code>version</code> field in <code>./package.json</code> and publishing at the same time.</p>
+<table>
+<thead>
+<tr>
+<th>Start with</th>
+<th>What kind of increment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>:bug:</code></td>
+<td>It increments <strong>patch</strong> version (like <code>npm version patch</code>)</td>
+</tr>
+<tr>
+<td><code>:sparkles:</code></td>
+<td>It increments <strong>minor</strong> version (like <code>npm version minor</code>)</td>
+</tr>
+<tr>
+<td><code>:boom:</code></td>
+<td>It increments <strong>major</strong> version (like <code>npm version major</code>)</td>
+</tr>
+</tbody></table>
+
+<a href="#important" id="important" style="color: inherit; text-decoration: none;">
+  <h3>Important</h3>
+</a>
+<p>You must need <code>secrets.PAT</code>.
+This is GitHub Personal Access Token.</p>
+
+<a href="#scope" id="scope" style="color: inherit; text-decoration: none;">
+  <h3>Scope</h3>
+</a>
+<table>
+<thead>
+<tr>
+<th>Registry</th>
+<th>Default scope</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GitHub Package Registry</td>
+<td><code>@sakkke</code></td>
+</tr>
+<tr>
+<td>npm Registry</td>
+<td><code>@0wv</code></td>
+</tr>
+</tbody></table>
+<p>To change, you must edit <code>env.PUBLISH_*_SCOPE</code> fields in <code>./.github/workflows/main.yml</code>.</p>
+
+<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+  <h3>Example</h3>
+</a>
+
+<a href="#first-publish" id="first-publish" style="color: inherit; text-decoration: none;">
+  <h4>First publish</h4>
+</a>
+<pre><code class="language-console">$ git commit --allow-empty -m &#39;:bookmark: v0.1.0&#39;
+$ git tag v0.1.0
+$ git push --follow-tags
+</code></pre>
+
+<a href="#publish-package-as-v0420" id="publish-package-as-v0420" style="color: inherit; text-decoration: none;">
+  <h4>Publish package as v0.42.0</h4>
+</a>
+<pre><code class="language-console">$ git commit --allow-empty -m &#39;:bookmark: v0.42.0&#39;
+$ git tag v0.42.0
+$ git push --follow-tags
+</code></pre>
+
+<a href="#publish-package-with-incrementing-minor-version" id="publish-package-with-incrementing-minor-version" style="color: inherit; text-decoration: none;">
+  <h4>Publish package with incrementing minor version</h4>
+</a>
+<pre><code class="language-console">$ git commit --allow-empty -m &#39;:sparkles: release&#39;
+$ git push
+</code></pre>
+
+<a href="#🍁-related" id="🍁-related" style="color: inherit; text-decoration: none;">
+  <h2>🍁 Related</h2>
+</a>
+<ul>
+<li><a href="https://github.com/sakkke/svelte-ultimate-template">Svelte Ultimate Template</a> - A starter template for Progressive Web App with Svelte + TypeScript + SugarSS</li>
+</ul>
+
+<a href="#📄-license" id="📄-license" style="color: inherit; text-decoration: none;">
+  <h2>📄 License</h2>
+</a>
+<p>Unlicense</p>
+</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Exports</a></li></ul></nav><nav class="tsd-navigation secondary menu-sticky"><ul><li class="tsd-kind-variable"><a href="modules.html#default" class="tsd-kind-icon">default</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
