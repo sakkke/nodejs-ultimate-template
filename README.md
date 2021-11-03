@@ -30,7 +30,7 @@ A starter template for Node.js with **TypeScript**
 
 ### 🌌 Others
 
-- [x] Automated testing using GitHub Actions
+- [x] Automated testing, linting and generating documentation using GitHub Actions
 - [x] Gitpod support
 
 ## 🎨 App structure
