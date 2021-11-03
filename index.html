@@ -25,7 +25,6 @@
 <li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/standard/eslint-config-standard-with-typescript">eslint-config-standard-with-typescript</a></li>
 </ul>
 </li>
-<li><input checked="" disabled="" type="checkbox"> Automated testing using GitHub Actions</li>
 </ul>
 
 <a href="#🔨-development" id="🔨-development" style="color: inherit; text-decoration: none;">
@@ -46,12 +45,33 @@
   <h3>🌌 Others</h3>
 </a>
 <ul>
+<li><input checked="" disabled="" type="checkbox"> Automated testing, linting and generating documentation using GitHub Actions</li>
 <li><input checked="" disabled="" type="checkbox"> Gitpod support</li>
 </ul>
 
 <a href="#🎨-app-structure" id="🎨-app-structure" style="color: inherit; text-decoration: none;">
   <h2>🎨 App structure</h2>
 </a>
+<table>
+<thead>
+<tr>
+<th>field in <code>./package.json</code></th>
+<th>value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>source</code></td>
+<td><code>src/index.ts</code></td>
+</tr>
+<tr>
+<td><code>main</code></td>
+<td><code>dist/index.js</code></td>
+</tr>
+<tr>
+<td><code>types</code></td>
+<td><code>dist/index.d.ts</code></td>
+</tr>
+</tbody></table>
 <pre><code class="language-console">$ tree src
 src
 ├── index.ts
@@ -120,6 +140,7 @@ src
 <li><input disabled="" type="checkbox"> Check or update <code>./LICENSE</code></li>
 <li><input disabled="" type="checkbox"> Update <code>name</code>, <code>description</code>, <code>author</code> in <code>./package.json</code></li>
 <li><input disabled="" type="checkbox"> Change <code>env.PUBLISH_*_SCOPE</code> fields in <code>./.github/workflows/main.yml</code> (see <a href="#Scope">#Scope</a>)</li>
+<li><input disabled="" type="checkbox"> Set GitHub Pages source to <code>gh-pages</code> branch</li>
 <li><input disabled="" type="checkbox"> Update <code>./README.md</code></li>
 </ul>
 
