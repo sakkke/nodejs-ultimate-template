@@ -1,5 +1,5 @@
 tmux \
-  new \; \
+  new$([ -n "$TMUX" ] && echo -n w) \; \
   set mouse on \; \
   renamew '🔨 dev' \; \
   send 'npm run watch' C-m \; \
