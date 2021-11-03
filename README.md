@@ -35,6 +35,12 @@ A starter template for Node.js with **TypeScript**
 
 ## 🎨 App structure
 
+field in `./package.json` | value
+--- | ---
+`source` | `src/index.ts`
+`main` | `dist/index.js`
+`types` | `dist/index.d.ts`
+
 ```console
 $ tree src
 src
