@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make `./scripts/dev.sh` include content of `./scripts/docs-serve.sh`
 - Add `npm-run-all` to `devDependencies`
 - Update Jest config
+- Add code coverage report support
 
 ## [0.3.0]
 ## Added

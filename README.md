@@ -10,6 +10,8 @@ A starter template for Node.js with **TypeScript**
 
 [Use this template on GitHub](https://github.com/sakkke/nodejs-ultimate-template/generate)
 
+[View code coverage report](https://sakkke.github.io/nodejs-ultimate-template/_coverage/lcov-report/)
+
 ## ✨ Features
 
 - [x] TypeScript
@@ -27,6 +29,7 @@ A starter template for Node.js with **TypeScript**
 ### 📝 Documentation
 
 - [x] TypeDoc
+- [x] Code coverage report by Jest
 
 ### 🌌 Others
 
