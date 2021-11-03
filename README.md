@@ -65,6 +65,12 @@ npm run dev
 
 ### Manually lint and test instead of `npm run dev`
 
+#### Compile on change
+
+```sh
+npm run watch
+```
+
 #### Run Jest in watch mode
 
 ```sh
@@ -75,6 +81,18 @@ npm run test:watch
 
 ```sh
 npm run lint:watch
+```
+
+#### Run TypeDoc in watch mode
+
+```sh
+npm run docs:watch
+```
+
+#### Serve `_docs`
+
+```sh
+npx serve _docs
 ```
 
 ## 🔰 Checklist
