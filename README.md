@@ -108,6 +108,14 @@ To change, you must edit `env.PUBLISH_*_SCOPE` fields in `./.github/workflows/ma
 
 ### Example
 
+#### First publish
+
+```console
+$ git commit --allow-empty -m ':bookmark: v0.1.0'
+$ git tag v0.1.0
+$ git push --follow-tags
+```
+
 #### Publish package as v0.42.0
 
 ```console
